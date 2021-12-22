@@ -4,7 +4,7 @@
   "description": "Iconify convert image format",
   "author": "Kim Younggeon <mail@kyg.kr>",
   "type": "module",
-  "license": "MIT",
+  "license": "PUBLIC DOMAIN",
   "scripts": {
     "dev": "vc dev",
     "test": "echo \"Error: no test specified\" && exit 1"
