@@ -20,13 +20,12 @@ export default async (req: VercelRequest, res: VercelResponse) => {
   const icon = iconifyFileName.replace(extension, '')
   const format = extension.replace(/^\./, '')
 
-  const apiBuffer = await $fetch<ArrayBuffer>(
+  const apiBuffer = await $fetch(
     `${icon}.svg`,
     {
       method: 'GET',
       baseURL: 'https://api.iconify.design/',
       params: req.query,
-      // @ts-ignore
       responseType: 'arrayBuffer'
     }
   ).catch((e) => {
