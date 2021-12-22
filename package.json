@@ -1,0 +1,24 @@
+{
+  "name": "convert-iconify",
+  "version": "0.0.0",
+  "description": "Iconify convert image format",
+  "author": "Kim Younggeon <mail@kyg.kr>",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vc dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ohmyfetch": "0.4.13",
+    "sharp": "0.29.3"
+  },
+  "devDependencies": {
+    "@iconify/types": "1.0.12",
+    "@types/node": "16.11.7",
+    "@types/sharp": "0.29.4",
+    "@vercel/node": "1.12.1",
+    "typescript": "4.5.4",
+    "vercel": "23.1.2"
+  }
+}
