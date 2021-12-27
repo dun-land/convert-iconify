@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@iconify/types': 1.0.12
   '@types/node': 16.11.17
-  '@types/sharp': 0.29.4
+  '@types/sharp': 0.29.5
   '@vercel/node': 1.12.1
   ohmyfetch: 0.4.14
   sharp: 0.29.3
@@ -17,7 +17,7 @@ dependencies:
 devDependencies:
   '@iconify/types': 1.0.12
   '@types/node': 16.11.17
-  '@types/sharp': 0.29.4
+  '@types/sharp': 0.29.5
   '@vercel/node': 1.12.1
   typescript: 4.5.4
   vercel: 23.1.2
@@ -44,8 +44,8 @@ packages:
     resolution: {integrity: sha512-C1vTZME8cFo8uxY2ui41xcynEotVkczIVI5AjLmy5pkpBv/FtG+jhtOlfcPysI8VRVwoOMv6NJm44LGnoMSWkw==}
     dev: true
 
-  /@types/sharp/0.29.4:
-    resolution: {integrity: sha512-asrPef2LYenr76zBzyy+Fw40yGzq/q/CY77mUP5n43DnuWjQoOB+8vxnzFcqccz+LF+A7mbnknGCfpVWSG82Bw==}
+  /@types/sharp/0.29.5:
+    resolution: {integrity: sha512-3TC+S3H5RwnJmLYMHrcdfNjz/CaApKmujjY9b6PU/pE6n0qfooi99YqXGWoW8frU9EWYj/XTI35Pzxa+ThAZ5Q==}
     dependencies:
       '@types/node': 16.11.17
     dev: true
