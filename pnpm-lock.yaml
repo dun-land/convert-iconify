@@ -44,14 +44,10 @@ packages:
     resolution: {integrity: sha512-C1vTZME8cFo8uxY2ui41xcynEotVkczIVI5AjLmy5pkpBv/FtG+jhtOlfcPysI8VRVwoOMv6NJm44LGnoMSWkw==}
     dev: true
 
-  /@types/node/17.0.2:
-    resolution: {integrity: sha512-JepeIUPFDARgIs0zD/SKPgFsJEAF0X5/qO80llx59gOxFTboS9Amv3S+QfB7lqBId5sFXJ99BN0J6zFRvL9dDA==}
-    dev: true
-
   /@types/sharp/0.29.4:
     resolution: {integrity: sha512-asrPef2LYenr76zBzyy+Fw40yGzq/q/CY77mUP5n43DnuWjQoOB+8vxnzFcqccz+LF+A7mbnknGCfpVWSG82Bw==}
     dependencies:
-      '@types/node': 17.0.2
+      '@types/node': 16.11.17
     dev: true
 
   /@vercel/build-utils/2.12.2:
@@ -65,7 +61,7 @@ packages:
   /@vercel/node/1.12.1:
     resolution: {integrity: sha512-NcawIY05BvVkWlsowaxF2hl/hJg475U8JvT2FnGykFPMx31q1/FtqyTw/awSrKfOSRXR0InrbEIDIelmS9NzPA==}
     dependencies:
-      '@types/node': 17.0.2
+      '@types/node': 16.11.17
       ts-node: 8.9.1_typescript@4.3.4
       typescript: 4.3.4
     dev: true
@@ -621,7 +617,7 @@ packages:
       destr: 1.1.0
       node-fetch: 3.1.0
       ufo: 0.7.9
-      undici: 4.12.0
+      undici: 4.12.1
     dev: false
 
   /once/1.4.0:
@@ -949,8 +945,8 @@ packages:
     resolution: {integrity: sha512-6t9LrLk3FhqTS+GW3IqlITtfRB5JAVr5MMNjpBECfK827W+Vh5Ilw/LhTcHWrt6b3hkeBvcbjx4Ti7QVFzmcww==}
     dev: false
 
-  /undici/4.12.0:
-    resolution: {integrity: sha512-sJ4CyO3ZPaoxWpLQTJpH/gWD+tCIra2OJ9UPvrX1siyJkgh8NOAybRejJ/g2xHyOdAuoSE0lPRJwRl8AZSXYJQ==}
+  /undici/4.12.1:
+    resolution: {integrity: sha512-MSfap7YiQJqTPP12C11PFRs9raZuVicDbwsZHTjB0a8+SsCqt7KdUis54f373yf7ZFhJzAkGJLaKm0202OIxHg==}
     engines: {node: '>=12.18'}
     dev: false
 
