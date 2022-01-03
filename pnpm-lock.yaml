@@ -5,13 +5,13 @@ specifiers:
   '@types/node': 16.11.17
   '@types/sharp': 0.29.4
   '@vercel/node': 1.12.1
-  ohmyfetch: 0.4.13
+  ohmyfetch: 0.4.14
   sharp: 0.29.3
   typescript: 4.5.4
   vercel: 23.1.2
 
 dependencies:
-  ohmyfetch: 0.4.13
+  ohmyfetch: 0.4.14
   sharp: 0.29.3
 
 devDependencies:
@@ -611,8 +611,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: false
 
-  /ohmyfetch/0.4.13:
-    resolution: {integrity: sha512-iqWvN5x6XzGrGW8Jzf8Ti0slZP02Smff0qHtPt6s1uNEuswUnDviS7RatqNTfXFG8hYDNjks7fIQYOzV2JMzBw==}
+  /ohmyfetch/0.4.14:
+    resolution: {integrity: sha512-kWllHM3DVJdwB4BpEoHhe+JUviDArit3ZQyVI2X2sxhCYZXlGHAABrsjJ07bac0RG3tae08BnKWy4eRMPKMh4w==}
     dependencies:
       destr: 1.1.0
       node-fetch: 3.1.0
