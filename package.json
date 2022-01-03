@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "ohmyfetch": "0.4.13",
+    "ohmyfetch": "0.4.14",
     "sharp": "0.29.3"
   },
   "devDependencies": {
