@@ -7,6 +7,9 @@
 ## URL
  - 기본 URL: https://convert-iconify.vercel.app/api
  - 짧은 URL: https://iconify.dun.land/api
+ 
+ ### 셀프 호스팅
+ [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdungsil%2Fconvert-iconify)
 
 ## 사용법
 `api.iconify.design`를 `iconify.dun.land/api` 로 변경하여 간단하게 사용하실 수 있습니다.
