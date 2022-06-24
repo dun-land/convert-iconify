@@ -4,8 +4,12 @@
     이 프로젝트는 SVG를 지원하지 않는 곳에서 사용하기 위해서 만들어졌습니다.
 </b>
 
+## URL
+ - 기본 URL: https://convert-iconify.vercel.app/api
+ - 짧은 URL: https://iconify.dun.land/api
+
 ## 사용법
-`api.iconify.design`를 `convert-iconify.vercel.app/api` 로 변경하여 간단하게 사용하실 수 있습니다.
+`api.iconify.design`를 `iconify.dun.land/api` 로 변경하여 간단하게 사용하실 수 있습니다.
 
 ### 지원 형식
  - PNG
@@ -40,4 +44,4 @@ https://convert-iconify.vercel.app/api/icons8:idea.webp?color=%23fcc419&width=10
 아이콘에는 퍼블릭도메인이 제공되지 않으며 원 출처에서 확인해주시기 바랍니다.
 
 <!-- variables -->
-[LINK_API]: https://convert-iconify.vercel.app/api
+[LINK_API]: https://iconify.dun.land/api
