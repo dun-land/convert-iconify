@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@iconify/types': 1.0.12
   '@types/node': 16.11.22
-  '@types/sharp': 0.29.5
+  '@types/sharp': 0.30.5
   '@vercel/node': 1.12.1
   ohmyfetch: 0.4.15
   sharp: 0.29.3
@@ -17,7 +17,7 @@ dependencies:
 devDependencies:
   '@iconify/types': 1.0.12
   '@types/node': 16.11.22
-  '@types/sharp': 0.29.5
+  '@types/sharp': 0.30.5
   '@vercel/node': 1.12.1
   typescript: 4.5.5
   vercel: 23.1.2
@@ -40,12 +40,24 @@ packages:
       defer-to-connect: 1.1.3
     dev: true
 
+  /@types/keyv/3.1.4:
+    resolution: {integrity: sha512-BQ5aZNSCpj7D6K2ksrRCTmKRLEpnPvWDiLPfoGyhZ++8YtiK9d/3DBKPJgry359X/P1PfruyYwvnvwFjuEiEIg==}
+    dependencies:
+      '@types/node': 16.11.22
+    dev: true
+
   /@types/node/16.11.22:
     resolution: {integrity: sha512-DYNtJWauMQ9RNpesl4aVothr97/tIJM8HbyOXJ0AYT1Z2bEjLHyfjOBPAQQVMLf8h3kSShYfNk8Wnto8B2zHUA==}
     dev: true
 
-  /@types/sharp/0.29.5:
-    resolution: {integrity: sha512-3TC+S3H5RwnJmLYMHrcdfNjz/CaApKmujjY9b6PU/pE6n0qfooi99YqXGWoW8frU9EWYj/XTI35Pzxa+ThAZ5Q==}
+  /@types/responselike/1.0.0:
+    resolution: {integrity: sha512-85Y2BjiufFzaMIlvJDvTTB8Fxl2xfLo4HgmHzVBz08w4wDePCTjYw66PdrolO0kzli3yam/YCgRufyo1DdQVTA==}
+    dependencies:
+      '@types/node': 16.11.22
+    dev: true
+
+  /@types/sharp/0.30.5:
+    resolution: {integrity: sha512-EhO29617AIBqxoVtpd1qdBanWpspk/kD2B6qTFRJ31Q23Rdf+DNU1xlHSwtqvwq1vgOqBwq1i38SX+HGCymIQg==}
     dependencies:
       '@types/node': 16.11.22
     dev: true
@@ -391,6 +403,8 @@ packages:
     dependencies:
       '@sindresorhus/is': 0.14.0
       '@szmarczak/http-timer': 1.1.2
+      '@types/keyv': 3.1.4
+      '@types/responselike': 1.0.0
       cacheable-request: 6.1.0
       decompress-response: 3.3.0
       duplexer3: 0.1.4
