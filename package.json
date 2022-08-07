@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "ohmyfetch": "0.4.15",
-    "sharp": "0.29.3"
+    "sharp": "0.30.5"
   },
   "devDependencies": {
     "@iconify/types": "1.0.12",
